@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "address-parser"
+version = "0.1.0"
+description = ""
+authors = ["bhavaniravi <bhava0895@gmail.com>"]
+license = "Apache"
+readme = "README.md"
+packages = [{include = "address_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.2"
+black = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
